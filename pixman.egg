@@ -1,0 +1,11 @@
+((author "Drew Thoreson")
+ (synopsis "Bindings to the pixman library")
+ (category graphics)
+ (license "MIT")
+ (build-dependencies foreigners bind)
+ (foreign-dependencies "pixman")
+ (components
+   (extension pixman
+     (custom-build "custom-build.scm")
+     (source-dependencies "pixman.h"))))
+

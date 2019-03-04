@@ -1,0 +1,11 @@
+*.o
+*.so
+*.a
+*.import.scm
+*.link
+
+pixman.build.sh
+pixman.install.sh
+
+*.swp
+
